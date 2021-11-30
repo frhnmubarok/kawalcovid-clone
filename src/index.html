@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+    <title>Document</title>
+  </head>
+
+  <body class="bg-gray-800 font-sans">
+    <div class="container py-6">
+      <!-- Navbar -->
+      <div class="max-w-6xl mx-auto pb-8">
+        <div class="flex justify-between items-center">
+          <div class="flex space-x-4 items-center">
+            <div>
+              <a href="#"><img src="./public/kawalcovid.png"></a>
+            </div>
+            <div class="flex space-x-8 pl-4">
+              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+              <a href="#" class="text-white text-md font-normal border-b-2 border-red-700 py-2">Beranda</a>
+              <a href="#" class="text-white text-md font-normal py-2">Indeks Kewaspadaan</a>
+              <a href="#" class="text-white text-md font-normal py-2">Informasi</a>
+              <a href="#" class="text-white text-md font-normal py-2">Vaksin</a>
+              <a href="#" class="text-white text-md font-normal py-2">Publikasi</a>
+              <a href="#" class="text-white text-md font-normal py-2">Unduh Aplikasi</a>
+            </div>
+          </div>
+          <div class="flex space-x-4 items-center">
+            <p class="text-white text-xs font-normal">Mode warna</p>
+            <div class="flex">
+              <a href="#" class="text-black bg-white px-3 py-2 text-sm font-semibold rounded-l-full">Terang</a>
+              <a href="#" class="text-white bg-red-700 px-3 py-2 text-sm font-semibold rounded-r-full">Gelap</a>
+            </div>
+            <div class="text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero -->
+      <div class="max-w-6xl mx-auto mt-16 pb-8">
+        <h1 class="text-5xl text-white max-w-4xl font-semibold">
+          Kawal informasi seputar COVID-19 secara tepat dan akurat.
+        </h1>
+        <p class="text-white mt-6 max-w-3xl text-md">Situs ini merupakan sumber informasi inisiatif sukarela warganet
+          Indonesia
+          pro-data,
+          terdiri dari praktisi kesehatan,
+          akademisi & profesional.</p>
+      </div>
+
+      <!-- Statistic -->
+      <div class="max-w-6xl mx-auto mt-16">
+        <h1 class="text-3xl text-white max-w-4xl font-semibold">
+          Jumlah Kasus di Indonesia Saat Ini
+        </h1>
+        <div class="mt-6 grid grid-cols-2 gap-4 w-full">
+          <div class="bg-gray-700 rounded-md flex flex-col items-center py-4">
+            <h1 class="text-7xl font-mono text-yellow-400">4.256.112</h1>
+            <p class="text-gray-200">Terkonfirmasi</p>
+          </div>
+          <div class="bg-gray-700 rounded-md flex flex-col items-center py-4">
+            <h1 class="text-7xl font-mono text-orange-400">7.960</h1>
+            <p class="text-gray-200">Dalam Perawatan</p>
+          </div>
+          <div class="bg-gray-700 rounded-md flex flex-col items-center py-4">
+            <h1 class="text-7xl font-mono text-green-600">4.104.333</h1>
+            <p class="text-gray-200">Sembuh</p>
+          </div>
+          <div class="bg-gray-700 rounded-md flex flex-col items-center py-4">
+            <h1 class="text-7xl font-mono text-red-600">143.819</h1>
+            <p class="text-gray-200">Meninggal</p>
+          </div>
+        </div>
+        <div class="mt-2">
+          <p class="text-xs font-normal text-gray-500">Pembaruan Terakhir</p>
+          <p class="text-md font-light font-mono text-gray-200">30 November 2021 06:34:06 +07:00</p>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto mt-10">
+        <div class="flex justify-between">
+          <h1 class="text-3xl text-white max-w-4xl font-semibold">
+            Situasi Vaksinasi COVID-19 Saat Ini
+          </h1>
+          <a href="#" class="text-blue-600 text-xl font-semibold">Lihat Lebih Lengkap &rarr;</a>
+        </div>
+        <div class="mt-6 grid grid-cols-2 gap-4 w-full">
+          <div class="bg-gray-700 rounded-md p-6">
+            <h1 class="text-3xl text-gray-200 pb-4">Vaksinasi Dosis 1</h1>
+            <h1 class="text-7xl font-mono text-green-600 flex justify-end">139.365.438</h1>
+            <p class="text-gray-400 flex justify-end">Dosis telah diberikan</p>
+            <div class="flex justify-between pt-3">
+              <div class="flex">
+                <div class="bg-orange-400 h-8 w-1 rounded-l-md"></div>
+                <div class="bg-blue-400 h-8 w-4"></div>
+                <div class="bg-blue-600 h-8 w-8"></div>
+                <div class="bg-pink-500 h-8 w-36"></div>
+                <div class="bg-fuchsia-500 h-8 w-52"></div>
+              </div>
+              <p class="text-green-600 text-xl">
+                66,917 %
+              </p>
+            </div>
+            <p class="text-gray-400 pt-3">66,917 % dari 208.265.720 telah divaksin</p>
+            <div class="pt-3">
+              <div class="flex justify-between pb-1">
+                <p class="text-orange-400 text-xl">Tenaga Kesehatan</p>
+                <p class="text-orange-400 text-xl">100%</p>
+              </div>
+              <div class="flex justify-between pb-1">
+                <p class="text-blue-400 text-xl">Lanjut Usia</p>
+                <p class="text-blue-400 text-xl">53,171 %</p>
+              </div>
+              <div class="flex justify-between pb-1">
+                <p class="text-blue-600 text-xl">Petugas Publik</p>
+                <p class="text-blue-600 text-xl">100 %</p>
+              </div>
+              <div class="flex justify-between pb-1">
+                <p class="text-pink-500 text-xl">Masyarakat Rentan dan Umum</p>
+                <p class="text-pink-500 text-xl">56,867 %</p>
+              </div>
+              <div class="flex justify-between">
+                <p class="text-fuchsia-500 text-xl">Kelompok Usia 12-17 tahun</p>
+                <p class="text-fuchsia-500 text-xl">75,477 %</p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-gray-700 rounded-md p-6">
+            <h1 class="text-3xl text-gray-200 pb-4">Vaksinasi Dosis 2</h1>
+            <h1 class="text-7xl font-mono text-green-600 flex justify-end">95.473.868</h1>
+            <p class="text-gray-400 flex justify-end">Dosis telah diberikan</p>
+            <div class="flex justify-between pt-3">
+              <div class="flex">
+                <div class="bg-orange-400 h-8 w-1 rounded-l-md"></div>
+                <div class="bg-blue-400 h-8 w-4"></div>
+                <div class="bg-blue-600 h-8 w-8"></div>
+                <div class="bg-pink-500 h-8 w-36"></div>
+                <div class="bg-fuchsia-500 h-8 w-52"></div>
+              </div>
+              <p class="text-green-600 text-xl">
+                45,842 %
+              </p>
+            </div>
+            <p class="text-gray-400 pt-3">45,842 % dari 208.265.720 telah divaksin</p>
+            <div class="pt-3">
+              <div class="flex justify-between pb-1">
+                <p class="text-orange-400 text-xl">Tenaga Kesehatan</p>
+                <p class="text-orange-400 text-xl">100%</p>
+              </div>
+              <div class="flex justify-between pb-1">
+                <p class="text-blue-400 text-xl">Lanjut Usia</p>
+                <p class="text-blue-400 text-xl">34,043 %</p>
+              </div>
+              <div class="flex justify-between pb-1">
+                <p class="text-blue-600 text-xl">Petugas Publik</p>
+                <p class="text-blue-600 text-xl">100 %</p>
+              </div>
+              <div class="flex justify-between pb-1">
+                <p class="text-pink-500 text-xl">Masyarakat Rentan dan Umum</p>
+                <p class="text-pink-500 text-xl">35,192 %</p>
+              </div>
+              <div class="flex justify-between">
+                <p class="text-fuchsia-500 text-xl">Kelompok Usia 12-17 tahun</p>
+                <p class="text-fuchsia-500 text-xl">53,817 %</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2">
+          <p class="text-xs font-normal text-gray-500">Pembaruan Terakhir</p>
+          <p class="text-md font-light font-mono text-gray-200">30 November 2021 13:00:15 +07:00</p>
+        </div>
+      </div>
+
+    </div>
+  </body>
+
+</html>
