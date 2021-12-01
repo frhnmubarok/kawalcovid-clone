@@ -24,7 +24,7 @@ Use a more readable tab size (opinionated).
 html {
   -moz-tab-size: 4;
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
 }
 
 /**
@@ -97,7 +97,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /**
@@ -651,10 +651,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -799,9 +795,9 @@ video {
   background-color: rgba(185, 28, 28, var(--tw-bg-opacity));
 }
 
-.bg-gray-700 {
+.bg-outer-space-500 {
   --tw-bg-opacity: 1;
-  background-color: rgba(63, 63, 70, var(--tw-bg-opacity));
+  background-color: rgba(46, 52, 59, var(--tw-bg-opacity));
 }
 
 .bg-orange-400 {
@@ -827,21 +823,6 @@ video {
 .bg-fuchsia-500 {
   --tw-bg-opacity: 1;
   background-color: rgba(217, 70, 239, var(--tw-bg-opacity));
-}
-
-.bg-warmGray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(41, 37, 36, var(--tw-bg-opacity));
-}
-
-.bg-trueGray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(38, 38, 38, var(--tw-bg-opacity));
-}
-
-.bg-trueGray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(64, 64, 64, var(--tw-bg-opacity));
 }
 
 .p-6 {

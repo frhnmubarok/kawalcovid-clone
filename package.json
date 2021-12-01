@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tailwindcss -i ./src/public/css/tailwind.css -o ./dist/tailwind.css",
-    "dev": "npx tailwindcss -o ./src/public/css/tailwind.css --watch"
+    "dev": "npx tailwindcss -o ./dist/tailwind.css --watch"
   },
   "keywords": [],
   "author": "",
